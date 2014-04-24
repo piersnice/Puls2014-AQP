@@ -16,13 +16,13 @@ var id = setInterval(function(){
 	}, 1000);
 
 function mostrarFormulario(){
-	
 	$form.slideToggle(); //ocultar y mostrar formulario (slideToggle)
 	$list.slideToggle();
 	return false;
 }
 
-function agregarPost(){
+function agregarPost(e){
+
 	var url= $url.val(),
 	titulo = $titulo.val(),	
 	$clone = $primerpost.clone();
@@ -45,4 +45,9 @@ function agregarPost(){
 //EVENTOS
 
 $button.click( mostrarFormulario );
-$form.on('submit', agregarPost );
+$form.on('submit', agregarPost).find('#link').on('focus', function(){
+	$('#link').val('http://');
+})
+.on('blur', function(){
+	$('#link').val('');
+});
