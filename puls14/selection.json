@@ -1,0 +1,141 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M747.52 307.251l-471.040-0.051 235.52 409.6z"
+				],
+				"tags": [
+					"arrow-down",
+					"triangle",
+					"down",
+					"bottom"
+				],
+				"grid": 20
+			},
+			"properties": {
+				"id": 202,
+				"order": 1,
+				"prevSize": 20,
+				"code": 58882,
+				"name": "flecha-abajo",
+				"ligatures": ""
+			},
+			"setIdx": 4,
+			"iconIdx": 202
+		},
+		{
+			"icon": {
+				"paths": [
+					"M276.48 716.8h471.040l-235.571-409.6z"
+				],
+				"tags": [
+					"arrow-up",
+					"triangle",
+					"up",
+					"top"
+				],
+				"grid": 20
+			},
+			"properties": {
+				"id": 203,
+				"order": 2,
+				"prevSize": 20,
+				"code": 58883,
+				"name": "flecha-arriba",
+				"ligatures": ""
+			},
+			"setIdx": 4,
+			"iconIdx": 203
+		},
+		{
+			"icon": {
+				"paths": [
+					"M1024 397.050l-353.78-51.408-158.22-320.582-158.216 320.582-353.784 51.408 256 249.538-60.432 352.352 316.432-166.358 316.432 166.358-60.434-352.352 256.002-249.538z"
+				],
+				"tags": [
+					"star",
+					"rate",
+					"favorite",
+					"bookmark"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 208,
+				"order": 3,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "estrella",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 208
+		},
+		{
+			"icon": {
+				"paths": [
+					"M384 640l128-64 448-448-64-64-448 448-64 128zM289.3 867.098c-31.632-66.728-65.666-100.762-132.396-132.394l99.096-272.792 128-77.912 384-384h-192l-384 384-192 640 640-192 384-384v-192l-384 384-77.912 128"
+				],
+				"tags": [
+					"pencil",
+					"write",
+					"edit",
+					"blog",
+					"note"
+				],
+				"grid": 16
+			},
+			"properties": {
+				"id": 6,
+				"order": 4,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "lapiz",
+				"ligatures": ""
+			},
+			"setIdx": 1,
+			"iconIdx": 6
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": ""
+	}
+}
