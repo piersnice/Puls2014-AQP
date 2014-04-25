@@ -332,10 +332,10 @@ footer
 			width: 49%;
 			float: left;
 		}
-	#contenido .autor_item
+	/*#contenido .autor_item
 		{
 			padding: 0.2em 0.5em;
-		}
+		}*/
 	#contenido .item:nth-child(odd)/*para tomar valores como un vector*/
 	{
 		margin-right: 2%;

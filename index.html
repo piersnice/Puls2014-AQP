@@ -18,7 +18,7 @@
 		</figure>	
 		<h1>Puls 2014: Practicando HTML5 con mejorando.la</h1>
 		<figure id="avatar">
-			<img src="imagen2.jpg" tittle="avaaaaaatar">
+			
 		</figure> 
 
 	</header>
@@ -41,6 +41,8 @@
 	</form>
 
 	<aside>
+		<div id="clima"></div>
+		<div id="geo"></div>
 		<video width="320" height="240" controls autoplay>
 			<source src="lecturas.mp4" type="video/mp4">
 			<source src="lecturas.ogg" type="video/ogg">
@@ -216,9 +218,17 @@
 			<strong>Powered by Pierre</strong>
 		</p>
 		<p>mejorando.la 2014</p>
+		<div class="logos"></div>
 	</footer>
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="formulario.js"></script>
 
+	<script src="ajax.js"></script>
+	<script src="geo.js"></script>
+	<script> 
+		$(function(){
+
+		});
+	</script>
 </body>
 </html>
