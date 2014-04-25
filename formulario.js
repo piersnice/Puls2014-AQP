@@ -4,6 +4,7 @@ var $form = $('#formulario'),
 	$button = $('#mostrar-form'),
 	$list = $('#contenido'),
 	$primerpost = $('.item').first();
+	$ocultaraside = $('aside');
 
 if (localStorage.getItem('autosave')) {
 	$titulo.val(sessionStorage.getItem('titulo'));
@@ -15,9 +16,11 @@ var id = setInterval(function(){
 	sessionStorage.setItem('url', $url.val());
 	}, 1000);
 
-function mostrarFormulario(tito){
+function mostrarFormulario(){
 	$form.slideToggle(); //ocultar y mostrar formulario (slideToggle)
 	$list.slideToggle();
+	$ocultaraside.slideToggle();
+
 }
 
 function agregarPost(e){
